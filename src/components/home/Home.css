@@ -1,0 +1,70 @@
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card styles */
+.home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 4px;
+    padding: 6px 24px;
+    width: 375px;
+    max-width: 100%;
+    border: 2px solid #F7F8F9;
+    background-color: #F7F8F9;
+}
+
+/* Welcome heading styles */
+.home-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Description styles */
+.home-description {
+    color: #718096;
+}
+
+/* Button container styles */
+.home-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Button styles */
+.home-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: medium;
+    border-radius: 6px;
+    padding: .5rem;
+    cursor: pointer;
+   
+    
+    transition: box-shadow 0.4s;
+}
+
+.home-button-create {
+    background-color: #6C25FF;
+    color: white;
+    border: none;
+    padding: 15px;
+}
+
+.home-button-login {
+    background-color: #6C25FF4B;
+    color: #1D2226;
+    border: none;
+    padding: 15px;
+}
+
+.home-button:hover {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}

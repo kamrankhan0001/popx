@@ -1,0 +1,57 @@
+/* Signin.css */
+
+/* Container styles */
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 24px;
+    width: 375px;
+    max-width: 100%;
+    border: 2px solid #F7F8F9;
+    background-color: #F7F8F9;
+    
+}
+
+/* Heading styles */
+.signin-heading {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* Description styles */
+.signin-description {
+    color: #718096;
+}
+
+/* Form styles */
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Input styles */
+.signin-input {
+    margin-bottom: 12px;
+}
+
+/* Button styles */
+.signin-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6C25FF4B;
+    color: #1D2226;
+    font-weight: medium;
+    border-radius: 6px;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    
+    transition: box-shadow 0.4s;
+}
+
+.signin-button:hover {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
